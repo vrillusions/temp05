@@ -69,6 +69,7 @@ while True:
       tempValue3 = temperature
 
     # insert temperature
+    #don't update the readings table any more (will probably delete all the sql stuff eventually
     dbCursor.execute("INSERT INTO readings (sensor_id, temperature) VALUES (%s, %s)", (serial, float(temperature)))
     dbCursor.execute("UPDATE sensors SET latest_temperature = %s, latest_reading_at = NOW() WHERE id = %s", (float(temperature), serial))
     
