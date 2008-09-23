@@ -30,6 +30,8 @@ from inc import temp05, RRD   # custom functions and vars
 
 
 if __name__ == "__main__":
+    # sends all output to log.txt. Comment out if you don't want to log anything
+    sys.stdout = open('log.txt', 'w')
     try:
         # ----------------
         # Setup Everything

@@ -11,15 +11,10 @@ dbName = "temp05"
 # the number of sensors you have
 sensorCount = 3
 
-# the logfile to write to, setting to /dev/null effectively disables it
-logfile = 'log.txt'
-
 # the path and filename of rrd database
 rrdfile = 'temp05.rrd'
 
 # --- end configuration ---
-fsock = open(logfile, 'w')
-sys.stdout = fsock
 
 
 def registerSerial(db, serial, num):
