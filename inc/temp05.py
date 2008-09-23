@@ -4,7 +4,7 @@ import sys
 
 # database settings
 dbHost = "localhost"
-dbUser = "temp05admin"
+dbUser = "temp05"
 dbPasswd = "m13ZnbR0qIdDJMu0"
 dbName = "temp05"
 
