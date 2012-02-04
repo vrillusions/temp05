@@ -1,0 +1,9 @@
+# Temp05 Listener
+
+This was a serial listener I made for the [Temp05 Device](http://midondesign.com/Temp05/TEMP05.html) sold by [midon design](http://midondesign.com).  It was a serial interface to a 1-wire network.  I had a few temperature sensors around the house and they connected to this temp05 device which polled the temperature once a minute.  These scripts would take that data and insert it into a mysql database and also an RRD database for graphs to be made.
+
+I wouldn't use any of this code as I'm sure better libraries for RRD and such have come out in the past few years.  This was probably one of if not my first python code and it shows.
+
+# License
+
+As the sole author of this, I hearby place it in the public domain.  It may be used by anyone, in part or in full, for any reason whatsoever for any purpose.  It is no longer supported and I am not responsible for any damages that occur from the use of this software.
